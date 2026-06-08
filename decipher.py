@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 
 url = input("Enter URL: ")
-
+print("Should be a URL with 3 rows, x-axis, character, and y-axis")
 def fetch_and_plot_from_pub_url(url):
 
     print("Fetching data from Google Doc...")
